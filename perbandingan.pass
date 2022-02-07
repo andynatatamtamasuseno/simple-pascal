@@ -1,0 +1,23 @@
+{File : perbandingan}
+{Desc : menentukan perbandingangan berat topi yang berbeda dari ketiga topi}
+{Date : 7 febr 2016}
+program perbandingan;
+uses crt;
+var
+        a, b, c:integer;
+begin
+        writeln('berat topi pertama');
+        readln(a);
+        writeln('berat topi kedua');
+        readln(b);
+        writeln('berat topi ketiga');
+        readln(c);
+        if (b=c) and (b<>a) then
+                writeln('topi1 berbeda')
+        else if (b=a)and (c<>b) then
+                writeln('topi3 berbeda')
+        else
+                writeln('topi2 berbeda');
+        readln
+end.
+

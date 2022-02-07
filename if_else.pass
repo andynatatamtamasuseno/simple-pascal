@@ -1,0 +1,9 @@
+{File : if_else}
+{Desc : menentukan apakah kedua karakter sama atau tidak!}
+{Date : 25 Jan 2016}
+program if_else;
+uses crt;
+begin
+        //put your code here
+end.
+
